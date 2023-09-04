@@ -9,3 +9,9 @@ img{
     height: 50px;
     border-radius: 50%;
 }
+.box{
+    width: 570px;
+    height: 570px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 3%;
+}
