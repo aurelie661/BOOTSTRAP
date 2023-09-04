@@ -2,4 +2,4 @@
 
 ![bootstrap_logo]()
 
-![html_logo](Assets/html)
+![html_logo](Assets/html_css.png)
