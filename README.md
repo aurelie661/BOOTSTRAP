@@ -1,5 +1,5 @@
 # HTML BOOTSTRAP
 
-![bootstrap_logo]()
+![bootstrap_logo](Assets/bootstrap.png)
 
-![html_logo](Assets/html)
+![html css_logo](Assets/html_css.png)
