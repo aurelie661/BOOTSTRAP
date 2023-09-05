@@ -428,7 +428,42 @@
       <hr>
       <h1 class="text-center">Cinquième exercice</h1>
       <div class="mb-5">
-        <div class="box3">
+        <div class="box3 text-light">
+          <h1 class="text-light fw-light p-3">-Connexion-</h1>
+            <div class="text-light ms-3 me-3">
+                <hr>
+            </div>
+              <div class="mb-3 ms-3 me-3">
+                <label for="username" class="form-label"> Adresse mail :</label>
+                <div class="input-group">
+                <input type="text" class="form-control" aria-label="username">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" aria-label="Server">
+                <select class="form-select text-end" aria-label="Default select example">
+                  <option selected>.ne</option>
+                  <option value="1">.com</option>
+                  <option value="2">.fr</option>
+                  <option value="3">.eu</option>
+                </select>
+              </div>
+              <div class="my-2">
+                  <label for="mdp1" class="col-form-label">Password : </label>
+                  <div class="input-group">
+                    <span class="input-group-text"><i class="bi bi-incognito"></i></span>  
+                    <input type="password" id="mdp1" name="mdp1" class="form-control">
+                  </div>                                             
+              </div>
+              <div class="form-check text-end d-flex flex-row-reverse">
+                <label class="form-check-label" for="invalidCheck">
+                  Se souvenir de moi ?
+                </label>
+                <input class="form-check-input p-2 me-3" type="checkbox" value="" required>
+              </div>
+              <div class="text-light ms-3 me-3">
+                <hr>
+            </div>
+            <button class="btn btn btn-outline-light d-block ms-auto me-3"><i class="bi bi-send"></i> Envoyer</button>
+            </div>
         </div>
       </div>
     </main>
