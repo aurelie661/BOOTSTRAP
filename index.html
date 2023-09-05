@@ -379,8 +379,8 @@
               </div>
               <div class="mb-3 col-6">
                 <label for="genre" class="form-label">Genre :</label>
-                <select class="form-select" size="3" type="checkbox">
-                  <option value="1" selected>Type 1</option>
+                <select id="genre" name="genre" width=300 style="width: 325px" size="3" multiple>
+                  <option value="1">Type 1</option>
                   <option value="2">Type 2</option>
                   <option value="3">Type 3</option>
                   <option value="3">Type 4</option>
@@ -396,14 +396,14 @@
               </div>
               <div class="mb-3 col-6">
                 <label for="range" class="form-label">Score :</label>
-                <input type="range" class="form-range" min="0" max="5" id="range" name="range" list="values">
-                <list id="values" class="d-flex">
-                  <option value="0" label="Nul" class="w-0"></option>
-                  <option value="25" label="Mauvais" class="w-25"></option>
-                  <option value="50" label="Normal" class="w-50"></option>
-                  <option value="75" label="Bon" class="w-75"></option>
-                  <option value="100" label="Bestseller" class="w-100"></option>
-                </list>
+                <input type="range" class="form-range" min="1" value="3" max="5" id="range" name="range" list="values">
+                <div id="values" class="row text-center">
+                  <option class="col text-start"label="Nul"></option>
+                  <option class="col" label="Mauvais"></option>
+                  <option class="col" label="Normal"></option>
+                  <option class="col" label="Bon"></option>
+                  <option class="col text-end" label="Bestseller"></option>
+                </div>
               </div>
               <div class="mb-3 col-6">
                 <label for="lang" class="form-label">Langue :</label>
