@@ -352,6 +352,79 @@
         </div>
       </div>
       <hr>
+      <h1 class="text-center">Quatrième exercice</h1>
+      <div class="mb-5">
+        <div class="box2 mx-auto">
+            <h1 class="text-light fw-light p-3">-Ajouter un livre-</h1>
+            <div class="text-light ms-3 me-3">
+                <hr>
+            </div>
+            <form class="text-light ms-2 me-2 row g-3">
+              <div class="mb-3 col-6">
+                <label for="title" class="form-label">Titre :</label>
+                <input type="text" class="form-control" id="title" aria-describedby="title">
+              </div>
+              <div class="mb-3 col-6">
+                <label for="isbn" class="form-label">Isbn :</label>
+                <input type="text" class="form-control" id="isbn" aria-describedby="isbn">
+              </div>
+              <div class="mb-3 col-6">
+                <label for="author" class="form-label">Auteur :</label>
+                <select class="form-select">
+                  <option selected>Selectionnez un auteur</option>
+                  <option value="1">Auteur 1</option>
+                  <option value="2">Auteur 2</option>
+                  <option value="3">Auteur 3</option>
+                </select>
+              </div>
+              <div class="mb-3 col-6">
+                <label for="genre" class="form-label">Genre :</label>
+                <select class="form-select" size="3" type="checkbox">
+                  <option value="1" selected>Type 1</option>
+                  <option value="2">Type 2</option>
+                  <option value="3">Type 3</option>
+                  <option value="3">Type 4</option>
+                </select>
+              </div>
+              <div class="mb-3 col-6">
+                <label class="form-label" for="input_file">Couverture :</label>
+                <input type="file" class="form-control" id="input_file">
+              </div>
+              <div class="mb-3 col-6">
+                <label for="price" class="form-label">Prix :</label>
+                <input type="number" class="form-control" id="price" aria-describedby="price">
+              </div>
+              <div class="mb-3 col-6">
+                <label for="range" class="form-label">Score :</label>
+                <input type="range" class="form-range" min="0" max="5" id="range" name="range" list="values">
+                <list id="values" class="d-flex">
+                  <option value="0" label="Nul" class="w-0"></option>
+                  <option value="25" label="Mauvais" class="w-25"></option>
+                  <option value="50" label="Normal" class="w-50"></option>
+                  <option value="75" label="Bon" class="w-75"></option>
+                  <option value="100" label="Bestseller" class="w-100"></option>
+                </list>
+              </div>
+              <div class="mb-3 col-6">
+                <label for="lang" class="form-label">Langue :</label>
+                <select class="form-select">
+                  <option selected>Selectionnez une langue</option>
+                  <option value="1">Langue 1</option>
+                  <option value="2">Langue 2</option>
+                  <option value="3">Langue 3</option>
+                </select>
+              </div>      
+              <div class="mb-3">
+                <label for="textarea" class="form-label"> Description :</label>
+                <textarea class="form-control" id="textarea" style="height: 130px"></textarea>
+              </div>
+              <div class="text-light ms-3 me-3">
+                <hr>
+            </div>
+            <button class="btn btn btn-outline-light d-block ms-auto me-3 col-2 mt-1"><i class="bi bi-plus-circle"></i> Ajouter</button>
+            </form>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
