@@ -23,7 +23,19 @@ img{
 }
 .box3{
     width: 500px;
-    height: 400px;
+    height: 390px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 3%;
+}
+.box4{
+    width: 700px;
+    height: 360px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 3%;
+}
+.box5{
+    width: 500px;
+    height: 360px;
     background-color: rgb(51, 51, 51);
     border-radius: 3%;
 }
